@@ -4,33 +4,22 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('https://wallpapercave.com/wp/wp2960922.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
   }
   
-  .clock {
-    font-family: 'Courier New', monospace; /* Monospace font */
-    color: #ffffff;
-    font-size: 7rem;
-    background: rgba(144, 144, 144, 0.2); /* Light transparent background */
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    backdrop-filter: blur(10px); /* Glass effect */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border to enhance the effect */
-  }
-  
-  #time {
-    text-align: center;
-  }
-  
-  #date {
-    font-size: 30px;
-    margin-top: 10px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
+#BTN {
+  height: 150px ;
+  width: 250px ;
+  border-radius:  20px;
+  font-size: 3rem;
+  background-color: brown;
+} 
+#BTN:hover{
+  background-color: #bb3d0b;
+} 
+p{
+  color: white;
+  font-size: 5rem;
+}
